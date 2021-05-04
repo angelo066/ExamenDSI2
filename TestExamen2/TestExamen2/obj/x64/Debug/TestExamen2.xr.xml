@@ -10,25 +10,26 @@
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="Children" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Button">
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="TabIndex" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="Background" />
+      <RootEvent Name="Click" />
+      <RootEvent Name="KeyDown" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
+    <RootType FullName="TestExamen2.ConfigPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Children" />
       <RootProperty Name="Margin" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.Button">
-      <RootProperty Name="Content" />
-      <RootProperty Name="TabIndex" />
-      <RootProperty Name="FontSize" />
-      <RootProperty Name="Background" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Style" />
-      <RootEvent Name="KeyDown" />
-      <RootEvent Name="Click" />
-    </RootType>
     <RootType FullName="TestExamen2.MainPage" />
-    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
     <RootType FullName="TestExamen2.MandoPage" />
   </Roots.RootTypes>
 </Roots>

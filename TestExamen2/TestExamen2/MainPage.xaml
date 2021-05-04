@@ -13,7 +13,7 @@
             <Button x:Name="inputButton" Content="Jugar" Click="inputButton_Click" KeyDown="inputButton_KeyDown"  TabIndex="0" FontSize="30" Background="Transparent"/>
         </StackPanel>
         <StackPanel x:Name="contentpanel" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,160,0,0">
-            <Button x:Name="inputvutton" KeyDown="inputButton_KeyDown" Content="Configurar" TabIndex="1" FontSize="30" Background="Transparent"/>
+            <Button x:Name="inputvutton" KeyDown="inputButton_KeyDown" Content="Configurar" Click ="Configure" TabIndex="1" FontSize="30" Background="Transparent"/>
         </StackPanel>
     </Grid>
 </Page>
