@@ -10,43 +10,43 @@
 
     <Grid KeyDown="BackBut_KeyDown"
           PointerMoved="C_PointerMoved">
+
+        <Rectangle Fill="Black"   Canvas.Left="0" 
+            Canvas.Top="0"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
+            PointerPressed ="C_PointerPressed" PointerMoved ="C_PointerMoved"/>
+
         <Button x:Name="BackBut" Click="Back_Click" VerticalAlignment="Top"
                 HorizontalAlignment="Left"
                 Style="{StaticResource NavigationBackButtonNormalStyle}"/>
 
-
         <Canvas x:Name="Canvas"
                 PointerMoved="C_PointerMoved">
-
-            <Rectangle Fill="Black"   Canvas.Left="0" 
-                Canvas.Top="0" Width="1500" Height="1000"  VerticalAlignment="Stretch" HorizontalAlignment="Right"
-                PointerPressed ="C_PointerPressed" PointerMoved ="C_PointerMoved"/>
-
             <TextBlock 
                 x:Name="C1" 
                 DataContext="C1" 
                 Text="C1"  
-                Height="45" 
-                Width="42" 
-                FontSize="30" 
+                Height="41" 
+                Width="39" 
+                FontSize="30"
                 Canvas.Left="677" 
                 Canvas.Top="131"
                 PointerPressed ="C_PointerPressed"
                 PointerMoved ="C_PointerMoved"
-                PointerReleased="C_PointerReleased"/>
+                PointerReleased="C_PointerReleased"
+                KeyDown="C_KeyDown"
+                />
 
             <TextBlock x:Name="C2" 
                        DataContext="C1" 
                        Text="C2"  
-                       Height="45" 
-                       Width="42" 
+                       Height="37" 
+                       Width="40" 
                        FontSize="30" 
                        Canvas.Left="861" 
                        Canvas.Top="139"
                        PointerPressed ="C_PointerPressed"
                        PointerMoved ="C_PointerMoved"
                        PointerReleased="C_PointerReleased"/>
-
         </Canvas>
     </Grid>
 </Page>

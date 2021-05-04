@@ -10,43 +10,43 @@
 
     <Grid x:ConnectionId='2'                          
                                        >
-        <Button x:ConnectionId='3' x:Name="BackBut"                    VerticalAlignment="Top"
+
+        <Rectangle x:ConnectionId='3' Fill="Black"   Canvas.Left="0" 
+            Canvas.Top="0"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
+                                                                             />
+
+        <Button x:ConnectionId='4' x:Name="BackBut"                    VerticalAlignment="Top"
                 HorizontalAlignment="Left"
                 Style="{StaticResource NavigationBackButtonNormalStyle}"/>
 
-
-        <Canvas x:ConnectionId='4' x:Name="Canvas"
+        <Canvas x:ConnectionId='5' x:Name="Canvas"
                                              >
-
-            <Rectangle x:ConnectionId='5' Fill="Black"   Canvas.Left="0" 
-                Canvas.Top="0" Width="1500" Height="1000"  VerticalAlignment="Stretch" HorizontalAlignment="Right"
-                                                                                 />
-
             <TextBlock x:ConnectionId='6' 
                 x:Name="C1" 
                 DataContext="C1" 
                 Text="C1"  
-                Height="45" 
-                Width="42" 
-                FontSize="30" 
+                Height="41" 
+                Width="39" 
+                FontSize="30"
                 Canvas.Left="677" 
                 Canvas.Top="131"
                                                   
                                               
-                                                   />
+                                                   
+                                   
+                />
 
             <TextBlock x:ConnectionId='7' x:Name="C2" 
                        DataContext="C1" 
                        Text="C2"  
-                       Height="45" 
-                       Width="42" 
+                       Height="37" 
+                       Width="40" 
                        FontSize="30" 
                        Canvas.Left="861" 
                        Canvas.Top="139"
                                                          
                                                      
                                                           />
-
         </Canvas>
     </Grid>
 </Page>

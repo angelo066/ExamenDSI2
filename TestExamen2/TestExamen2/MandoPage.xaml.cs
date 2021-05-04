@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.System;
 using Windows.UI.Input;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
@@ -75,6 +76,57 @@ namespace TestExamen2
             if (!ptrPt.Properties.IsRightButtonPressed) BotDer = false;
 
             name = "";
+        }
+
+        private void C_KeyDown(object sender, KeyRoutedEventArgs e){
+            bool move = false;
+            int X = 0, Y = 0;
+            name = (sender as TextBlock).Name;
+            if(name == "C1"){
+                X = (int)Canvas.GetLeft(C1);
+                Y = (int)Canvas.GetTop(C1);
+
+            }
+            else if (name == "C2"){
+                X = (int)Canvas.GetLeft(C2);
+                Y = (int)Canvas.GetTop(C2);
+            }
+
+            switch (e.Key){
+                //Izquierda
+                case VirtualKey.A:
+                case VirtualKey.GamepadRightThumbstickLeft:
+                    X -= 10;
+                    move = true;
+                    break;
+                //Derecha
+                case VirtualKey.D:
+                case VirtualKey.GamepadRightThumbstickRight:
+                    X += 10;
+                    move = true;
+                    break;
+                //Arriba
+                case VirtualKey.W:
+                case VirtualKey.GamepadRightThumbstickUp:
+                    Y -= 10;
+                    move = true;
+                    break;
+                case VirtualKey.S:
+                case VirtualKey.GamepadRightThumbstickDown:
+                    Y += 10;
+                    move = true;
+                    break;
+            }
+
+            if(name == "C1"){
+                Canvas.SetLeft(C1, (int)X);
+                Canvas.SetTop(C1, (int)Y);
+            }
+            else if(name == "C2")
+            {
+                Canvas.SetLeft(C2, (int)X);
+                Canvas.SetTop(C2, (int)Y);
+            }
         }
 
         private void C_PointerMoved(object sender, PointerRoutedEventArgs e){
