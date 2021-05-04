@@ -29,7 +29,17 @@
                 PointerMoved ="C_PointerMoved"
                 PointerReleased="C_PointerReleased"/>
 
-            <TextBlock x:Name="C2" DataContext="C1" Text="C2"  Height="45" Width="42" FontSize="30" Canvas.Left="861" Canvas.Top="139"/>
+            <TextBlock x:Name="C2" 
+                       DataContext="C1" 
+                       Text="C2"  
+                       Height="45" 
+                       Width="42" 
+                       FontSize="30" 
+                       Canvas.Left="861" 
+                       Canvas.Top="139"
+                       PointerPressed ="C_PointerPressed"
+                PointerMoved ="C_PointerMoved"
+                PointerReleased="C_PointerReleased"/>
 
         </Canvas>
     </Grid>
