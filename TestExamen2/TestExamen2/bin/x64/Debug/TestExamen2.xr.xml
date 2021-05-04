@@ -41,6 +41,16 @@
       <RootMethod Name="SetToolTip" />
     </RootType>
     <RootType FullName="TestExamen2.MainPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
+      <RootProperty Name="DataContext" />
+      <RootProperty Name="Text" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="FontSize" />
+    </RootType>
     <RootType FullName="TestExamen2.MandoPage" />
   </Roots.RootTypes>
 </Roots>

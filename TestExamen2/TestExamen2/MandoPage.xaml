@@ -12,5 +12,16 @@
         <Button x:Name="BackBut" Click="Back_Click" VerticalAlignment="Top"
                 HorizontalAlignment="Left"
                 Style="{StaticResource NavigationBackButtonNormalStyle}"/>
+
+        <TextBlock x:Name="C1" DataContext="C1" Text="C1" HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="523,58,0,0" Height="45" Width="42" FontSize="30">
+
+        </TextBlock>
+        
+        <TextBlock x:Name="C2" DataContext="C1" Text="C2" HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="623,58,0,0" Height="45" Width="42" FontSize="30">
+
+        </TextBlock>
+
+
+
     </Grid>
 </Page>
