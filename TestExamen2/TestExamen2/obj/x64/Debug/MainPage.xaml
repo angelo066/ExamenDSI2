@@ -10,7 +10,21 @@
 
     <Grid>
         <StackPanel x:ConnectionId='2' x:Name="contentPanel" HorizontalAlignment="Center" VerticalAlignment="Center">
-            <Button x:ConnectionId='5' x:Name="inputButton" Content="Jugar"                                                          TabIndex="0" FontSize="30" Background="Transparent" ToolTipService.ToolTip="Jugar Again io k c" AccessKey="J"/>
+            <Button x:ConnectionId='5' x:Name="inputButton" 
+                    Content="Jugar" 
+                                              
+                                                   
+                    TabIndex="0" 
+                    FontSize="30" 
+                    Background="Transparent" 
+                    ToolTipService.ToolTip="Jugar Again io k c" 
+                    AccessKey="J">
+                <Button.KeyboardAccelerators>
+                    <KeyboardAccelerator 
+                      Modifiers="Control" 
+                      Key="J" />
+                </Button.KeyboardAccelerators>
+            </Button>
         </StackPanel>
         <StackPanel x:ConnectionId='3' x:Name="contentpanel" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,160,0,0">
             <Button x:ConnectionId='4' x:Name="inputvutton" 
@@ -21,6 +35,11 @@
                     FontSize="30" 
                     Background="Transparent"
                     AccessKey="C">
+                <Button.KeyboardAccelerators>
+                    <KeyboardAccelerator 
+                      Modifiers="Control" 
+                      Key="C" />
+                </Button.KeyboardAccelerators>
             </Button>
         </StackPanel>
     </Grid>
