@@ -43,5 +43,12 @@ namespace TestExamen2
             }
             return false;
         }
+
+        private void BackBut_KeyDown(object sender, KeyRoutedEventArgs e){
+            if (e.Key == Windows.System.VirtualKey.Escape)
+            {
+                Back_Click(sender, e);
+            }
+        }
     }
 }

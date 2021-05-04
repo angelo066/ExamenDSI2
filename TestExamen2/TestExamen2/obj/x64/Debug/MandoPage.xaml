@@ -8,8 +8,8 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-        <Button x:ConnectionId='2' x:Name="BackBut"                    VerticalAlignment="Top"
+    <Grid x:ConnectionId='2'                          >
+        <Button x:ConnectionId='3' x:Name="BackBut"                    VerticalAlignment="Top"
                 HorizontalAlignment="Left"
                 Style="{StaticResource NavigationBackButtonNormalStyle}"/>
     </Grid>

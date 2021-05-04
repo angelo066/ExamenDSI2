@@ -9,7 +9,9 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <StackPanel x:Name="contentPanel" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <StackPanel x:Name="contentPanel" 
+                    HorizontalAlignment="Center" 
+                    VerticalAlignment="Center">
             <Button x:Name="inputButton" 
                     Content="Jugar" 
                     Click="inputButton_Click" 
