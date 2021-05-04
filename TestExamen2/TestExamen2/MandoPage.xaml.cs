@@ -82,8 +82,8 @@ namespace TestExamen2
 
             if(BotIzq){
                 if (name == "C1"){
-                    Canvas.SetLeft(C1, (int)NewptrPt.Position.X - (C1.Width/2));
-                    Canvas.SetTop(C1, (int)NewptrPt.Position.Y - (C1.Height/2));
+                    Canvas.SetLeft(C1, (int)NewptrPt.Position.X - (C1.Width / 2));
+                    Canvas.SetTop(C1, (int)NewptrPt.Position.Y - (C1.Height / 2));
                 }
                 else if (name == "C2"){
                     Canvas.SetLeft(C2, (int)NewptrPt.Position.X - (C2.Width / 2));
