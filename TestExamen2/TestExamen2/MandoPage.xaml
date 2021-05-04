@@ -8,45 +8,49 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid KeyDown="BackBut_KeyDown"
-          PointerMoved="C_PointerMoved">
+    <Grid KeyDown="BackBut_KeyDown">
 
         <Rectangle Fill="Black"   Canvas.Left="0" 
             Canvas.Top="0"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
-            PointerPressed ="C_PointerPressed" PointerMoved ="C_PointerMoved"/>
+            PointerMoved ="C_PointerMoved"/>
 
         <Button x:Name="BackBut" Click="Back_Click" VerticalAlignment="Top"
                 HorizontalAlignment="Left"
                 Style="{StaticResource NavigationBackButtonNormalStyle}"/>
 
-        <Canvas x:Name="Canvas"
-                PointerMoved="C_PointerMoved">
-            <TextBlock 
-                x:Name="C1" 
-                DataContext="C1" 
-                Text="C1"  
-                Height="41" 
-                Width="39" 
-                FontSize="30"
+        <Canvas x:Name="Canvas" >
+
+            <ContentControl
+                x:Name="C1"
+                Content="C1"
+                Width="35"
+                Height="40"
                 Canvas.Left="677" 
                 Canvas.Top="131"
+                FontSize="30"
                 PointerPressed ="C_PointerPressed"
                 PointerMoved ="C_PointerMoved"
                 PointerReleased="C_PointerReleased"
                 KeyDown="C_KeyDown"
-                />
+                TabIndex="1"
+                UseSystemFocusVisuals="True">
+            </ContentControl>
 
-            <TextBlock x:Name="C2" 
-                       DataContext="C1" 
-                       Text="C2"  
-                       Height="37" 
-                       Width="40" 
-                       FontSize="30" 
-                       Canvas.Left="861" 
-                       Canvas.Top="139"
-                       PointerPressed ="C_PointerPressed"
-                       PointerMoved ="C_PointerMoved"
-                       PointerReleased="C_PointerReleased"/>
+            <ContentControl
+                x:Name="C2"
+                Width="35"
+                Height="40"
+                Content="C2"
+                Canvas.Left="861" 
+                Canvas.Top="139"
+                FontSize="30"
+                PointerPressed ="C_PointerPressed"
+                PointerMoved ="C_PointerMoved"
+                PointerReleased="C_PointerReleased"
+                TabIndex="2"
+                UseSystemFocusVisuals="True"
+                >
+            </ContentControl>
         </Canvas>
     </Grid>
 </Page>

@@ -8,45 +8,49 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid x:ConnectionId='2'                          
-                                       >
+    <Grid x:ConnectionId='2'                          >
 
         <Rectangle x:ConnectionId='3' Fill="Black"   Canvas.Left="0" 
             Canvas.Top="0"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
-                                                                             />
+                                          />
 
         <Button x:ConnectionId='4' x:Name="BackBut"                    VerticalAlignment="Top"
                 HorizontalAlignment="Left"
                 Style="{StaticResource NavigationBackButtonNormalStyle}"/>
 
-        <Canvas x:ConnectionId='5' x:Name="Canvas"
-                                             >
-            <TextBlock x:ConnectionId='6' 
-                x:Name="C1" 
-                DataContext="C1" 
-                Text="C1"  
-                Height="41" 
-                Width="39" 
-                FontSize="30"
+        <Canvas x:ConnectionId='5' x:Name="Canvas" >
+
+            <ContentControl x:ConnectionId='6'
+                x:Name="C1"
+                Content="C1"
+                Width="35"
+                Height="40"
                 Canvas.Left="677" 
                 Canvas.Top="131"
+                FontSize="30"
                                                   
                                               
                                                    
                                    
-                />
+                TabIndex="1"
+                UseSystemFocusVisuals="True">
+            </ContentControl>
 
-            <TextBlock x:ConnectionId='7' x:Name="C2" 
-                       DataContext="C1" 
-                       Text="C2"  
-                       Height="37" 
-                       Width="40" 
-                       FontSize="30" 
-                       Canvas.Left="861" 
-                       Canvas.Top="139"
-                                                         
-                                                     
-                                                          />
+            <ContentControl x:ConnectionId='7'
+                x:Name="C2"
+                Width="35"
+                Height="40"
+                Content="C2"
+                Canvas.Left="861" 
+                Canvas.Top="139"
+                FontSize="30"
+                                                  
+                                              
+                                                   
+                TabIndex="2"
+                UseSystemFocusVisuals="True"
+                >
+            </ContentControl>
         </Canvas>
     </Grid>
 </Page>
