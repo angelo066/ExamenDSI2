@@ -13,7 +13,7 @@
             <Button x:ConnectionId='5' x:Name="inputButton" Content="Jugar"                                                          TabIndex="0" FontSize="30" Background="Transparent"/>
         </StackPanel>
         <StackPanel x:ConnectionId='3' x:Name="contentpanel" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,160,0,0">
-            <Button x:ConnectionId='4' x:Name="inputvutton"                               Content="Configurar" TabIndex="1" FontSize="30" Background="Transparent"/>
+            <Button x:ConnectionId='4' x:Name="inputvutton"                               Content="Configurar" TabIndex="1" FontSize="30" Background="Transparent"                           />
         </StackPanel>
     </Grid>
 </Page>

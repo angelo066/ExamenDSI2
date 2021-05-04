@@ -64,5 +64,11 @@ namespace TestExamen2
         private void inputButton_Click(object sender, RoutedEventArgs e){
             this.Frame.Navigate(typeof(MandoPage));
         }
+
+        private void inputButton_Click2(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(BlankPage1));
+        }
     }
+
 }
