@@ -13,15 +13,24 @@
                 HorizontalAlignment="Left"
                 Style="{StaticResource NavigationBackButtonNormalStyle}"/>
 
-        <TextBlock x:Name="C1" DataContext="C1" Text="C1" HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="523,58,0,0" Height="45" Width="42" FontSize="30">
 
-        </TextBlock>
-        
-        <TextBlock x:Name="C2" DataContext="C1" Text="C2" HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="623,58,0,0" Height="45" Width="42" FontSize="30">
+        <Canvas x:Name="Canvas">
 
-        </TextBlock>
+            <TextBlock 
+                x:Name="C1" 
+                DataContext="C1" 
+                Text="C1"  
+                Height="45" 
+                Width="42" 
+                FontSize="30" 
+                Canvas.Left="677" 
+                Canvas.Top="131"
+                PointerPressed ="C_PointerPressed"
+                PointerMoved ="C_PointerMoved"
+                PointerReleased="C_PointerReleased"/>
 
+            <TextBlock x:Name="C2" DataContext="C1" Text="C2"  Height="45" Width="42" FontSize="30" Canvas.Left="861" Canvas.Top="139"/>
 
-
+        </Canvas>
     </Grid>
 </Page>
