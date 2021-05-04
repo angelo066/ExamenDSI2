@@ -1,27 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jd\\Desktop\\Uni\\Segundo\\2do4\\DSI\\Examen2Repo\\DSIG10\\TestExamen2\\TestExamen2\\TestExamen2.csproj": {}
+    "D:\\Universidad\\Uni\\Segundo\\SegundoCuatri\\DSI\\DSIEXAM2\\ExamenDSI2\\TestExamen2\\TestExamen2\\TestExamen2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jd\\Desktop\\Uni\\Segundo\\2do4\\DSI\\Examen2Repo\\DSIG10\\TestExamen2\\TestExamen2\\TestExamen2.csproj": {
+    "D:\\Universidad\\Uni\\Segundo\\SegundoCuatri\\DSI\\DSIEXAM2\\ExamenDSI2\\TestExamen2\\TestExamen2\\TestExamen2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jd\\Desktop\\Uni\\Segundo\\2do4\\DSI\\Examen2Repo\\DSIG10\\TestExamen2\\TestExamen2\\TestExamen2.csproj",
+        "projectUniqueName": "D:\\Universidad\\Uni\\Segundo\\SegundoCuatri\\DSI\\DSIEXAM2\\ExamenDSI2\\TestExamen2\\TestExamen2\\TestExamen2.csproj",
         "projectName": "TestExamen2",
-        "projectPath": "C:\\Users\\jd\\Desktop\\Uni\\Segundo\\2do4\\DSI\\Examen2Repo\\DSIG10\\TestExamen2\\TestExamen2\\TestExamen2.csproj",
-        "packagesPath": "C:\\Users\\jd\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jd\\Desktop\\Uni\\Segundo\\2do4\\DSI\\Examen2Repo\\DSIG10\\TestExamen2\\TestExamen2\\obj\\",
+        "projectPath": "D:\\Universidad\\Uni\\Segundo\\SegundoCuatri\\DSI\\DSIEXAM2\\ExamenDSI2\\TestExamen2\\TestExamen2\\TestExamen2.csproj",
+        "packagesPath": "C:\\Users\\Ángel\\.nuget\\packages\\",
+        "outputPath": "D:\\Universidad\\Uni\\Segundo\\SegundoCuatri\\DSI\\DSIEXAM2\\ExamenDSI2\\TestExamen2\\TestExamen2\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\jd\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Ángel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "uap10.0.17763"
