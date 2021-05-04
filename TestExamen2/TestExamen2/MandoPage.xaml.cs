@@ -45,7 +45,11 @@ namespace TestExamen2
         }
 
         private void BackBut_KeyDown(object sender, KeyRoutedEventArgs e){
-            if (e.Key == Windows.System.VirtualKey.Escape)
+            if (e.OriginalKey == Windows.System.VirtualKey.GamepadB)
+            {
+
+            }
+            else if (e.Key == Windows.System.VirtualKey.Escape || e.Key == Windows.System.VirtualKey.GamepadMenu)
             {
                 Back_Click(sender, e);
             }
