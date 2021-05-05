@@ -143,24 +143,24 @@ namespace TestExamen2
 
             switch (e.Key){
                 //Izquierda
-                case VirtualKey.A:
+                case VirtualKey.Left:
                 case VirtualKey.GamepadRightThumbstickLeft:
                     X -= 10;
                     move = true;
                     break;
                 //Derecha
-                case VirtualKey.D:
+                case VirtualKey.Right:
                 case VirtualKey.GamepadRightThumbstickRight:
                     X += 10;
                     move = true;
                     break;
                 //Arriba
-                case VirtualKey.W:
+                case VirtualKey.Up:
                 case VirtualKey.GamepadRightThumbstickUp:
                     Y -= 10;
                     move = true;
                     break;
-                case VirtualKey.S:
+                case VirtualKey.Down:
                 case VirtualKey.GamepadRightThumbstickDown:
                     Y += 10;
                     move = true;
