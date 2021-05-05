@@ -29,9 +29,7 @@ namespace TestExamen2
                 Windows.UI.Xaml.Navigation.NavigationCacheMode.Enabled;
         }
 
-        private void inputButton_KeyDown(object sender, KeyRoutedEventArgs e)
-        {
-
+        private void inputButton_KeyDown(object sender, KeyRoutedEventArgs e){
             DependencyObject candidate;
             if (e.Key == Windows.System.VirtualKey.Down){
                 e.Handled = true;

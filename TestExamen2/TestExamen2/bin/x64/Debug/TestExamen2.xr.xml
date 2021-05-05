@@ -30,15 +30,14 @@
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Children" />
-      <RootProperty Name="Margin" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Input.KeyboardAccelerator">
-      <RootProperty Name="Modifiers" />
-      <RootProperty Name="Key" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ToolTipService">
       <RootMethod Name="GetToolTip" />
       <RootMethod Name="SetToolTip" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Input.KeyboardAccelerator">
+      <RootProperty Name="Modifiers" />
+      <RootProperty Name="Key" />
     </RootType>
     <RootType FullName="TestExamen2.MainPage" />
     <RootType FullName="Windows.UI.Xaml.Shapes.Rectangle">

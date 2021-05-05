@@ -20,15 +20,15 @@
                     FontSize="30" 
                     Background="Transparent" 
                     ToolTipService.ToolTip="Jugar Again io k c" 
-                    AccessKey="J">
+                    AccessKey="J" 
+                    HorizontalAlignment="Center">
                 <Button.KeyboardAccelerators>
                     <KeyboardAccelerator 
                       Modifiers="Control" 
                       Key="J" />
                 </Button.KeyboardAccelerators>
             </Button>
-        </StackPanel>
-        <StackPanel x:Name="contentpanel" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,160,0,0">
+            
             <Button x:Name="inputvutton" 
                     KeyDown="inputButton_KeyDown" 
                     Content="Configurar" 
@@ -44,5 +44,8 @@
                 </Button.KeyboardAccelerators>
             </Button>
         </StackPanel>
+        
+        <!--<StackPanel x:Name="contentpanel" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,160,0,0">
+        </StackPanel>-->
     </Grid>
 </Page>
